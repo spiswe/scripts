@@ -1,42 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-15T01:03:44.806Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" etag="0Ootfmj67UIZ1EhpJpsv" version="17.4.0" type="github" pages="2">
-  <diagram id="vsaM09zi7yV6WPfComJP" name="Page-1">
-    <mxGraphModel dx="1201" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="bT22ACR74dKV-6-3jw7O-10" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="390" width="170" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="bT22ACR74dKV-6-3jw7O-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bT22ACR74dKV-6-3jw7O-1" target="bT22ACR74dKV-6-3jw7O-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="bT22ACR74dKV-6-3jw7O-1" value="Deploy &amp;amp;&amp;amp; Launcher" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="280" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="bT22ACR74dKV-6-3jw7O-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bT22ACR74dKV-6-3jw7O-2" target="bT22ACR74dKV-6-3jw7O-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="bT22ACR74dKV-6-3jw7O-2" value="Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="420" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="bT22ACR74dKV-6-3jw7O-6" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="290" y="420" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="bT22ACR74dKV-6-3jw7O-8" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="300" y="430" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="bT22ACR74dKV-6-3jw7O-9" value="instances" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="310" y="440" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="bT22ACR74dKV-6-3jw7O-11" value="faked MySQL Slave" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="295" y="400" width="125" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="_q7Ok15DwdhONQsZhZLu-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="730" width="120" height="60" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
+<mxfile host="app.diagrams.net" modified="2022-04-20T03:45:49.341Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" etag="yrEhRwpaeK0tZicu4ymL" version="17.4.0" type="github" pages="2">
   <diagram id="V7synDufwfQmhtq7wmGl" name="架构图">
     <mxGraphModel dx="1201" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -100,10 +62,10 @@
         <mxCell id="By4JKTRLmv9t2HYBbOvR-43" value="meta manager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="By4JKTRLmv9t2HYBbOvR-41">
           <mxGeometry x="4" y="29" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="By4JKTRLmv9t2HYBbOvR-44" value="Storage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="By4JKTRLmv9t2HYBbOvR-41">
+        <mxCell id="By4JKTRLmv9t2HYBbOvR-44" value="Consumer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="By4JKTRLmv9t2HYBbOvR-41">
           <mxGeometry x="4" y="57" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="By4JKTRLmv9t2HYBbOvR-45" value="Consumer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="By4JKTRLmv9t2HYBbOvR-41">
+        <mxCell id="By4JKTRLmv9t2HYBbOvR-45" value="Storage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="By4JKTRLmv9t2HYBbOvR-41">
           <mxGeometry x="4" y="87" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="By4JKTRLmv9t2HYBbOvR-46" value="SQL applier" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="By4JKTRLmv9t2HYBbOvR-41">
@@ -115,11 +77,22 @@
         <mxCell id="By4JKTRLmv9t2HYBbOvR-52" value="Client" style="swimlane;" vertex="1" parent="By4JKTRLmv9t2HYBbOvR-53">
           <mxGeometry x="433" y="217" width="128" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="By4JKTRLmv9t2HYBbOvR-54" value="Sources" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="By4JKTRLmv9t2HYBbOvR-54" value="Sources&lt;br&gt;DB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="124" y="283" width="60" height="237" as="geometry" />
         </mxCell>
-        <mxCell id="By4JKTRLmv9t2HYBbOvR-55" value="Destination" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="By4JKTRLmv9t2HYBbOvR-55" value="Destination&lt;br&gt;DB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="756" y="283" width="74" height="237" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="vsaM09zi7yV6WPfComJP" name="canal 流程">
+    <mxGraphModel dx="1201" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="D9fNuwCATScF7ZVciPf--1" value="deploy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="510" width="70" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
